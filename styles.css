@@ -30,6 +30,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
     animation: glowing-border 2s infinite;
+    max-width: 50vw;
+    min-width: 200px;
 }
 
 @keyframes glowing-border {
